@@ -1,4 +1,4 @@
-#Welcome to the Holberton School of Witchcraft and Wizardry!#
+#Welcome to the Holberton School of Witchcraft and Wizardry!
 
 *This game was created by Holberton School of Engineering - Tulsa student, Talisha White*
 
