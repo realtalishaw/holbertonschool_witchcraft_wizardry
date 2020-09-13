@@ -1,0 +1,94 @@
+>> What is your name?
+>> *Ring* *Ring* A video chat from an unknown caller.
+>> Will you answer it?
+>> Too bad! You just literally missed your call to action! Why don't you catch up on your projects anyway? 
+Libby > Hello! It is such a pleasure to meet you. My name is Libby, Keeper of Keys and Head of all things at Holberton School of Witchcraft and Wizardry.
+I am calling with very exciting news. You've been accepted into Holberton!
+$PLAYER >Excuse me, what?
+Libby > Yes, because of your technical know how we've decided to admit you to Holberton on a full scholarship! 
+Libby > Your very first trimester begins in just a few short days!
+Libby> Are you ready to learn how to create the most magical programs you could ever imagine?
+Libby > Great! Here is your school supplies list: school_supplies. 
+Libby > I'm sorry to hear that.
+Read your school supplies list.
+$PLAYER > Libby, can I really find all of this online?
+Libby > Well, you can if you know where to look!
+Libby > Welcome $PLAYER to Silicon Valley! Here's where you'll get your over-priced headphones. Over there all the stickers for your MacBook.
+$PLAYER > But Libby, how am I supposed to pay for all of this? Technolgy is very expensive!
+Libby > Sequoia Capital of course! There's no one they haven't funded, well except maybe Holberton.
+>> You enter the bank and approach the teller.
+Libby > Hello. $PLAYER wishes to make a withdrawl. 
+Teller > And does $PLAYER have their pitch?
+Libby > Yes! I've got it here somewhere. Oh here it is:
+Remember you pitch: 01101011 01100101 01111001
+Libby > Oh, there's one more thing from Headmaster Sylvan about you know what in vault you know which.
+Teller > Excellent. Let us go to $PLAYER's vault.
+Teller > Pitch Please
+>> How much would you like to withdraw? 
+>>You can come back to your vault at anytime and deposit or withdraw funds. Just take the train to Silicon valley!
+>> Be sure to store your withdrawl in your wallet. You can do that by creating a variable like this WALLET="$amount"
+>> We did not like your pitch. You will not be funded today, please try again later.
+>> If you forgot your pitch maybe you should ask Libby.
+Steve > Welcome to Macintosh, your home for wands since 1984. What can I help you with today?
+$PLAYER > I'm in need of a wand for school.
+Steve > Holberton, I pressume?
+Steve > Let's see if I can find you a great wand.
+>> The first wand you try is too slow. You try to vagrant up && vagrant shh, and it takes an hour!
+>> The second wand you try literally catches on fire!
+Steve > No, no, no definetely not! Hmm... I wonder. 
+>> Steve goes to the back and comes back with a chrome colored wand with engraving.
+Steve > Try this.
+>> Can you hear the church choir singing??
+Steve > That's interesting.
+$PLAYER > What's interesting?
+Steve > $PLAYER I remember every wand I've ever sold. SPLAYER, it so happens that the kernal of this wand is identical only to that of one other ... ONLY one other. 
+Steve > It's interesting that you should be destined for this wans when it's twin is the one that ... I can't.
+$PLAYER > You can't what?
+Steve > Oh I can't! We don't speak about it. The wand choses the wizard, $PLAYER. It's not always clear why.
+Steve > But I think it's clear we can expect great things from you. After all, he who shall not be named did great things. Terrible, yes. But great.
+Derek > Hello, I am Derek, transformations teacher at Holberton. 
+Derek > Welcome to Holberton!
+Derek > In a few moments, you will fo into the main_hall and join the other cohorts. BUT, before you take your seats you must be sorted into your houses.
+Derek > The four houses are System, Web, Game, and Application.
+Derek > While you're here your house will be your family. Do great things and you will earn points, break the rules and you will lose points.
+Derek > At the end of the year a House Cup will be awarded to the house with the most points. Now, go to the sorting_ceremony.
+>> Your class schedule
+- Potions 101 with Professor Julien
+- Defense Against the Dark Web with Professor Rahsha
+- Transfotmations 102 with Professor Derek
+Julien > There will be no silly vi or VScode in this class. Real wizards use Emacs.
+Julien > As such, many of you will not make it past this trimester.
+Julien > I can teach you how to just with a few lines of code.
+Julien > Now, I expect everyone to read "Potions: A Pratical Magic" by next class. Class dismissed.
+Potions: A Pratical Magic
+Written by Ada Lovelace
+Potions are the heart and core of any and all spells. Without Potions, most spells would be useless.
+One of the most important potions you can learn is cut and translate.
+In fact if you translate this book to [something] you'll have the answer to your next Potions class!
+Julien > $PLAYER, did you do the required reading?
+Julien > Well, then. What do you get when you combine [riddle]
+Rahsha > Welcome to Defense Against the Dark Web. In this class we will be learning how to ethically hack to help all.
+Rahsha > Now does anyone have any questions before we get started?
+>> Would you like to ask a question?
+$PLAYER > What is ethical hacking? Why can't we just hack?
+Rahsha > Yes $PLAYER, you have a question?
+Derek > Welcome to transformations class. We learn all about data types and algorithms in this class. My favorite is Bubble Sort!
+Derek > Today we're going to be learning about Boolean and how to use them to detect if someone is lying.
+Derek > Boolean only has two possible values: 0 or 1.
+Derek > 0 represents a false value and 1 represents a true value.
+Lambda > Why if it isn't $PLAYER. You'll never be as good of a wizard as me. 
+$PLAYER > Oh yea? I'm a better wizard then you.
+Lambda > Why don't you put your wand where you mouth is. Tonight, third floor East cooridor. That is, if you're brave enough.
+>> Where would you like to go?
+>> You are now boarding the train to Holberton.
+Friend > $PLAYER, the third floor is off limits! You're going to get in trouble.
+>> Will you accept Lambda's challenge?
+>> Now you can go to the third floor.
+>> The third floor is dark and eerie. You hear a noise.
+$PLAYER > Lambda, where are you? Show yourself!
+>> You start to get scared. 
+>> Oh no! You hear the groundskeeper, Norton coming up the stairs. You better hide before he catches you!
+>> Oh no! There is a giant dog guarding a trap door!
+>> Do you know how to get past him?
+>> How do you get past the guard dog?
+>> Uh-oh! You're caught in Devil's Snare! How do you escape?
