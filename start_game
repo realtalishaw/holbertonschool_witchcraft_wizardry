@@ -1,0 +1,22 @@
+#!/bin/bash
+#So you thought looking at the source code would help you win?
+#Well, maybe!
+#Can you figure out how to win this game?
+#Also, tweet me @realtalishaw for hints!
+
+
+figlet -c "Holberton School of Witchcraft and Wizardry"
+clear
+echo -e "What shall we call you?"
+read -r player
+export player
+clear
+ 
+sleep 2s
+echo -e "$player: A wizard?! No, I'm just $player. Plain old $player. There's no way I could be a wizard!"
+sleep 2s
+
+echo -e '#!/bin/bash' >> train.sh
+head .gametext  | tail -n +6 > train.sh
+chmod u+x train.sh
+
