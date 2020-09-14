@@ -8,7 +8,9 @@ echo -e '#!/bin/bash' > .print && echo -e 'head -n $1 .gametext | tail -n +$1 | 
 
 clear
 echo "Welcome to the game! We are going to install some libraries needed. Make sure to type Y when prompted!"
-sleep 2s
+echo -e "When questions are asked in the game you may answer y or Y for yes and n or N for no"
+echo "Good luck, and have fun!"
+sleep 5s
 clear
 
 #sudo apt-get update
@@ -26,9 +28,6 @@ echo -e "What shall we call you?" | pv -qL 15
 read -r player
 export player
 clear
-
-echo -e  "Answer questions by typing y or n \nAnswer wisely! This game has no redos!"
-clear
  
 $p 2
 $p 3
@@ -37,7 +36,7 @@ read answer
 if [ "$answer" = "y" ]; then
     $p 5
 else 
-    $p 4 && echo "removes everything"
+    $p 4 && echo "rm -r holbertonschool_witchcraft_wizardry"
 fi
 
 
