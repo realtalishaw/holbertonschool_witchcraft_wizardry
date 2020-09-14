@@ -5,6 +5,7 @@
 #Also, tweet me @realtalishaw for hints!
 
 echo -e '#!/bin/bash' > .print && echo -e 'head -n $1 .gametext | tail -n +$1 | pv -qL 15' >> .print && chmod u+x .print && p=./.print 
+export p
 
 clear
 echo "Welcome to the game! We are going to install some libraries needed. Make sure to type Y when prompted!"
@@ -27,6 +28,7 @@ clear
 echo -e "What shall we call you?" | pv -qL 15
 read -r player
 export player
+#translate all of $PLAYER in the gametext so that it reads the $player name
 clear
  
 $p 2
@@ -36,7 +38,31 @@ read answer
 if [ "$answer" = "y" ]; then
     $p 5
 else 
-    $p 4 && clear &&  rm start_game && rm .gametext && figlet -f mono12 -c  "GAME OVER!"
+    $p 4 && clear && rm .print &&  rm start_game && rm .gametext && figlet -f mono12 -c  "GAME OVER!"
 fi
 
+$p 7
+$p 8
+$p 9
+$p 10
+read answer
 
+if [ "$answer" = "y" ]; then
+    $p 11 && sed -n '95,97p' .gametext > school_supplies
+else
+    echo "IDK what you want me to do then?"
+fi
+
+$p 13
+read answer
+
+if [ "$answer" = "cat school_supplies" ]; then
+    cat school_supplies
+else
+    echo "Not quite! Hint: How do you display the contents of a file?"
+fi
+
+$p 14
+$p 15
+
+touch silicon_valley
