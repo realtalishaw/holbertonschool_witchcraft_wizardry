@@ -4,19 +4,40 @@
 #Can you figure out how to win this game?
 #Also, tweet me @realtalishaw for hints!
 
+echo -e '#!/bin/bash' > .print && echo -e 'head -n $1 .gametext | tail -n +$1 | pv -qL 15' >> .print && chmod u+x .print && p=./.print 
 
-figlet -c "Holberton School of Witchcraft and Wizardry"
 clear
-echo -e "What shall we call you?"
+echo "Welcome to the game! We are going to install some libraries needed. Make sure to type Y when prompted!"
+sleep 2s
+clear
+
+#sudo apt-get update
+#sudo apt-get install figlet
+#sudo apt-get install toilet
+#sudo apt-get install pv 
+#clear
+
+figlet -f future -c "Holberton School of Witchcraft and Wizardry" 
+sleep 1s
+echo  "Book 1: The Programmer's Stone" | pv -qL 15
+clear
+ 
+echo -e "What shall we call you?" | pv -qL 15
 read -r player
 export player
 clear
- 
-sleep 2s
-echo -e "$player: A wizard?! No, I'm just $player. Plain old $player. There's no way I could be a wizard!"
-sleep 2s
 
-echo -e '#!/bin/bash' >> train.sh
-head .gametext  | tail -n +6 > train.sh
-chmod u+x train.sh
+echo -e  "Answer questions by typing y or n \nAnswer wisely! This game has no redos!"
+clear
+ 
+$p 2
+$p 3
+read answer
+
+if [ "$answer" = "y" ]; then
+    $p 5
+else 
+    $p 4 && echo "removes everything"
+fi
+
 
