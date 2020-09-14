@@ -36,7 +36,7 @@ read answer
 if [ "$answer" = "y" ]; then
     $p 5
 else 
-    $p 4 && echo "rm -r holbertonschool_witchcraft_wizardry"
+    $p 4 && cd &&  rm -r holbertonschool_witchcraft_wizardry
 fi
 
 
