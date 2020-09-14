@@ -36,7 +36,7 @@ read answer
 if [ "$answer" = "y" ]; then
     $p 5
 else 
-    $p 4 && cd &&  rm -r holbertonschool_witchcraft_wizardry
+    $p 4 && clear &&  rm start_game && rm .gametext && figlet -f mono12 -c  "GAME OVER!"
 fi
 
 
