@@ -4,7 +4,7 @@
 #Can you figure out how to win this game?
 #Also, tweet me @realtalishaw for hints!
 
-echo -e '#!/bin/bash' > .print && echo -e 'head -n $1 .gametext | tail -n +$1 | pv -qL 15' >> .print && chmod u+x .print && p=./.print 
+echo -e '#!/bin/bash' > .print && echo -e 'head -n $1 .gametext | tail -n +$1 | pv -qL 30' >> .print && chmod u+x .print && p=./.print 
 export p
 
 clear
@@ -48,7 +48,7 @@ $p 10
 read answer
 
 if [ "$answer" = "y" ]; then
-    $p 11 && sed -n 'p' .gametext > school_supplies
+    $p 11 && sed -n '95,112p' .gametext > school_supplies
 else
     echo "IDK what you want me to do then?"
 fi
@@ -58,7 +58,7 @@ read answer
 
 
 if [ "$answer" = "cat school_supplies" ]; then
-    cat school_supplies 
+    cat school_supplies && echo && sleep 3s  
 else
     echo "Not quite! Hint: How do you display the contents of a file?"
 fi
@@ -66,8 +66,9 @@ fi
 $p 14
 $p 15
 
-echo -e '#/bin/bash' > .siliconValley && chmod u+x .siliconValley
-
+echo -e '#/bin/bash' > .siliconValley
+chmod u+x .siliconValley
+echo -e 'p=./.print'  >> .siliconValley
 echo -e '$p 16\n$p 17\n$p 18' >> .siliconValley
+echo && head -n 115 .gametext | tail -n +115 >> .siliconValley
 
-head -n 99 .gametext | tail -n +99 >> .siliconValley
