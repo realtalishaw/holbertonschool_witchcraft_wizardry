@@ -26,9 +26,9 @@ echo  "Book 1: The Programmer's Stone" | pv -qL 15
 clear
  
 echo -e "What shall we call you?" | pv -qL 15
-read -r player
-export player
-#translate all of $PLAYER in the gametext so that it reads the $player name
+read -r name
+sed -i "s/player/${name}/g" .gametext
+export name
 clear
  
 $p 2
