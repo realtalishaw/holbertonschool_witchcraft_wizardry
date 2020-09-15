@@ -48,7 +48,7 @@ $p 10
 read answer
 
 if [ "$answer" = "y" ]; then
-    $p 11 && sed -n '95,97p' .gametext > school_supplies
+    $p 11 && sed -n 'p' .gametext > school_supplies
 else
     echo "IDK what you want me to do then?"
 fi
@@ -56,8 +56,9 @@ fi
 $p 13
 read answer
 
+
 if [ "$answer" = "cat school_supplies" ]; then
-    cat school_supplies
+    cat school_supplies 
 else
     echo "Not quite! Hint: How do you display the contents of a file?"
 fi
@@ -65,4 +66,8 @@ fi
 $p 14
 $p 15
 
-touch silicon_valley
+echo -e '#/bin/bash' > .siliconValley && chmod u+x .siliconValley
+
+echo -e '$p 16\n$p 17\n$p 18' >> .siliconValley
+
+head -n 99 .gametext | tail -n +99 >> .siliconValley
